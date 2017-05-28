@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./animate.css">
+    <script src="./wow.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./../jquery-3.1.1.min.js"></script>
+</head>
+<body >
+<!--data-wow-duration 改变动画时间
+data-wow-delay 延迟在动画开始之前
+data-wow-offset 距离开始动画(有关浏览器底部)
+data-wow-iteration 动画重复的次数-->
+<!--内联元素a不支持bounce-->
+
+<div  class="onepage"  style="padding: 20px;position: relative">
+    <a name="onepage"></a>
+    <!--左上-->
+    <div class="wow slideInLeft"  style="width: 400px;height: 150px;border: solid 10px white;padding: 10px;border-radius: 20px;
+    background-color: black;opacity: 0.7;color: white;text-align: center;
+    line-height: 140px;position: absolute;left: 20px;top: 20px;">
+        class="wow slideInLeft"
+    </div>
+    <!--左下-->
+    <div class="wow rotateInUpLeft" style="width: 400px;height: 150px;border: solid 10px white;padding: 10px;border-radius: 20px;
+    background-color: black;opacity: 0.7;color: white;text-align: center;
+    line-height: 140px;position: absolute;bottom: 20px;left: 20px">
+        class="wow rotateInUpLeft"
+    </div>
+
+
+    <!--中间-->
+    <div style="position: absolute;bottom: 37%;left: 40%">
+        <img src="img/timg.gif" style="border-radius: 50%" class="wow fadeInDownBig"/>
+        <div  class="wow fadeInUpBig" style="position: absolute;bottom: 125px;left: 55px">
+            <p style="padding: 5px 15px 5px 15px;background-color: black;opacity: 0.7;color: white"> class="wow fadeInDownBig"</p>
+            <p style="padding: 5px 15px 5px 15px;background-color: black;opacity: 0.7;color: white"> class="wow fadeInUpBig" </p>
+        </div>
+    </div>
+
+
+    <!--右上-->
+    <div class="wow slideInRight"  style="width: 400px;height: 150px;border: solid 10px white;padding: 10px;border-radius: 20px;
+    background-color: black;opacity: 0.7;color: white;text-align: center;
+    line-height: 140px;position: absolute;right: 20px;top: 20px;">
+        class="wow slideInRight"
+    </div>
+
+    <!--右下-->
+    <div class="wow rotateInUpRight"  style="width: 400px;height: 150px;border: solid 10px white;padding: 10px;border-radius: 20px;
+    background-color: black;opacity: 0.7;color: white;text-align: center;
+    line-height: 140px;position: absolute;bottom: 20px;right: 20px">
+        class="wow rotateInUpRight"
+    </div>
+
+</div>
+<div class=" twopage"  style="padding: 20px;position: relative" >
+    <a name="twopage"></a>
+    <!--左上-->
+    <div class="wow fadeInLeft " style="width: 250px;height: 250px;border-radius: 50%;position: absolute;top: 50px;background-color: #4c4c4c;border: dashed 10px white;color: white;text-align: center;line-height: 50px;box-sizing: border-box;padding-top: 60px">
+         <p class="wow bounce"> class="wow fadeInLeft " <br>class="wow bounce"</p>
+    </div>
+     <!--左下-->
+    <div class="wow bounceInRight" style="width: 250px;height: 250px;border-radius: 50%;position: absolute;bottom: 50px;background-color: #4c4c4c;border: dashed 10px white;color: white;text-align: center;line-height: 50px;box-sizing: border-box;padding-top: 60px">
+       <p class="wow flash"> class="wow bounceInRight" <br>class="wow flash"</p>
+    </div>
+        <!--右上-->
+    <div class="wow fadeInRight"  style="width: 250px;height: 250px;border-radius: 50%;position: absolute;top: 50px;right:20px;background-color: #4c4c4c;border: dashed 10px white;color: white;text-align: center;line-height: 50px;box-sizing: border-box;padding-top: 60px">
+       <p class="wow pulse"> class="wow fadeInRight" <br> class="wow pulse"</p>
+    </div>
+        <!--右下-->
+    <div class="wow bounceInLeft" style="width: 250px;height: 250px;border-radius: 50%;position: absolute;right: 20px;bottom: 50px;background-color: #4c4c4c;border: dashed 10px white;color: white;text-align: center;line-height: 50px;box-sizing: border-box;padding-top: 60px">
+       <p class="wow rubberBand">class="wow bounceInLeft" <br>class="wow rubberBand"</p>
+    </div>
+    <!--中间-->
+    <div class="wow  bounceInDown" style="width: 250px;height: 250px;border-radius: 50%;position: absolute;top: 28%;left:45%;background-color: #4c4c4c;border: dashed 10px white;color: white;text-align: center;line-height: 50px;box-sizing: border-box;padding-top: 60px">
+        <p class="wow bounceInUp">class="wow bounceInDown"<br>class="wow bounceInUp"  </p>
+    </div>
+
+</div>
+<div class=" threepage" style="padding: 20px;position: relative">
+    <a name="threepage"></a>
+    <!--左上-->
+    <div class="wow fadeInLeftBig" style="width: 0px;height: 0px;  border-bottom: solid 150px transparent;border-right: solid 150px transparent; border-top: solid 150px #7e7e7e; border-left: solid 150px transparent;
+        position: absolute;top:100px;left: 50px;color: white" >
+        <p class="wow shake" style="position: absolute;top: -130px;left: -40px">class="wow fadeInLeftBig" <br>class="wow shake"</p>
+    </div>
+    <!--左下-->
+    <div class="wow fadeInDown" style="width: 0px;height: 0px;  border-top: solid 150px transparent;border-right: solid 150px transparent; border-bottom: solid 150px #7e7e7e; border-left: solid 150px transparent;
+        position: absolute;left:50px;bottom: 100px;color: white" >
+        <p class="wow swing" style="position: absolute;top: 60px;left: -50px">class="wow fadeInDown" <br>class="wow swing"</p>
+    </div>
+    <!--右上-->
+    <div class="wow fadeInRightBig" style="width: 0px;height: 0px;  border-bottom: solid 150px transparent;border-right: solid 150px transparent; border-top: solid 150px #7e7e7e; border-left: solid 150px transparent;
+        position: absolute;top:100px;right: 50px;color: white" >
+        <p class="wow tada" style="position: absolute;top: -130px;left: -40px">class="wow fadeInRightBig" <br>class="wow tada"</p>
+    </div>
+    <!--右下-->
+    <div class="wow fadeInDownBig" style="width: 0px;height: 0px;  border-top: solid 150px transparent;border-right: solid 150px transparent; border-bottom: solid 150px #7e7e7e; border-left: solid 150px transparent;
+        position: absolute;bottom:100px;right: 50px;color: white" >
+        <p class="wow wobble" style="position: absolute;top: 60px;left: -50px">class="wow fadeInDownBig" <br>class="wow wobble"</p>
+    </div>
+    <!--中间-->
+    <div class="wow bounceIn" style="position: absolute;left: 34%;top: 20%;width: 500px;height: 500px;border: solid 10px pink;border-radius: 50%;text-align: center;box-sizing: border-box;padding-top: 30px">
+        <div class="wow fadeIn" style="width: 400px;height: 400px;border-radius: 50%;border: solid 10px palevioletred;margin: auto;box-sizing: border-box;padding-top: 50px">
+            class="wow bounceIn" <br> class="wow fadeIn"
+        </div>
+
+    </div>
+
+</div>
+<div class=" fourpage" style="padding: 20px;position: relative">
+    <a name="fourpage"></a>
+    <!--左上-->
+    <div class=" wow rollIn" style="width:300px;height: 300px;position: absolute;left: 100px;top: 50px">
+        <img src="img/h1.jpg" style="width: 100%;border-radius: 50%"/>
+    </div>
+    <!--右上-->
+    <div class="wow rotateIn" style="width:300px;height: 300px;position: absolute;right: 100px;top: 50px;">
+        <img src="img/h2.jpeg" style="width: 100%;border-radius: 50%"/>
+    </div>
+    <!--左下-->
+    <div class="wow rotateInDownLeft" style="width:300px;height: 300px;position: absolute;bottom: 20px;left: 100px">
+        <img src="img/h3.jpg" style="width: 100%;border-radius: 50%"/>
+    </div>
+    <!--右下-->
+    <div class="wow rotateInDownRight" style="width:300px;height: 300px;position: absolute;right: 100px;bottom: 20px">
+        <img src="img/h4.jpeg" style="width: 100%;border-radius: 50%"/>
+    </div>
+    <!--中间-->
+    <div class="wow hinge"  style="width:300px;height: 300px;position: absolute;left: 40%;top: 30%;">
+        <img src="img/h5.jpg" style="width: 100%;border-radius: 50%"/>
+    </div>
+</div>
+<div class="fivepage" style="padding: 20px;position: relative">
+    <a name="fivepage"></a>
+
+    <div style="width: 70%;margin: auto;display: flex;flex-direction: row;margin-top: 30px">
+        <div class="wow flipInY"   style="width: 30%;height:300px;margin-right: 20px;background-color: rgba(255,166,24,0.77);text-align: center;line-height: 300px">
+            class="wow flipInY"
+        </div>
+        <div class="wow rotateInUpLeft" style="width: 30%;height:300px;margin-right: 20px;background-color: rgba(255,172,106,0.72);text-align: center;line-height: 300px">
+            class="wow rotateInUpLeft"
+        </div>
+        <div class="wow lightSpeedIn" style="width: 30%;height:300px;margin-right: 20px;background-color: rgba(255,111,35,0.69);text-align: center;line-height: 300px">
+            class="wow lightSpeedIn"
+        </div>
+
+    </div>
+    <div style="width: 70%;margin: auto;display: flex;flex-direction: row;margin-top: 10px">
+        <div class="wow rollIn"   style="width: 30%;height:300px;margin-right: 20px;background-color: rgba(255,192,203,0.59);text-align: center;line-height: 300px">
+            class="wow rollIn"
+        </div>
+        <div class="wow rotateInUpLeft" style="width: 30%;height:300px;margin-right: 20px;background-color: rgba(255,192,203,0.83);text-align: center;line-height: 300px">
+            class="wow rotateInUpLeft"
+        </div>
+        <div class="wow fadeInRightBig" style="width: 30%;height:300px;margin-right: 20px;background-color: rgba(255,0,207,0.53);text-align: center;line-height: 300px">
+            class="wow fadeInRightBig"
+        </div>
+
+    </div>
+
+</div>
+
+<div class="side-nav">
+    <ul class="nav-side-nav">
+        <li ><a href="#onepage" class="tooltip-side-nav select one"></a></li>
+        <li><a href="#twopage" class="tooltip-side-nav default two"></a></li>
+        <li><a href="#threepage" class="tooltip-side-nav default three"></a></li>
+        <li><a href="#fourpage" class="tooltip-side-nav default four"></a></li>
+        <li><a href="#fivepage" class="tooltip-side-nav default five"></a></li>
+    </ul>
+</div>
+<script>
+
+    var total=document.documentElement.clientHeight-20;
+    console.log(total);
+    document.querySelector(".onepage").style.height=total+"px";
+    document.querySelector(".twopage").style.height=total+"px";
+    document.querySelector(".threepage").style.height=total+"px";
+    document.querySelector(".fourpage").style.height=total+"px";
+    document.querySelector(".fivepage").style.height=total+"px";
+
+</script>
+<script>
+    $(".tooltip-side-nav").click(function(){
+
+        $(this).addClass("select").parent().siblings().children().removeClass("select");
+        console.log($(".tooltip-side-nav"));
+        $(this).removeClass("default").parent().siblings().children().addClass("default");
+
+    })
+    $(function(){
+        var one = $(".onepage").offset().top;
+        var two = $(".twopage").offset().top;
+        var three = $(".threepage").offset().top;
+        var four = $(".fourpage").offset().top;
+        var five = $(".fivepage").offset().top;
+
+
+        $(window).scroll(function() {
+            var this_scrollTop = $(this).scrollTop();
+            if(this_scrollTop>two&& this_scrollTop<three){
+                $(".two").addClass("select").parent().siblings().children().removeClass("select");
+
+                $(".two").removeClass("default").parent().siblings().children().addClass("default");
+            }else if(this_scrollTop>three&& this_scrollTop<four){
+                $(".three").addClass("select").parent().siblings().children().removeClass("select");
+
+                $(".three").removeClass("default").parent().siblings().children().addClass("default");
+            }else if(this_scrollTop>four&& this_scrollTop<five){
+                $(".four").addClass("select").parent().siblings().children().removeClass("select");
+
+                $(".four").removeClass("default").parent().siblings().children().addClass("default");
+            }else if(this_scrollTop>five){
+                $(".five").addClass("select").parent().siblings().children().removeClass("select");
+
+                $(".five").removeClass("default").parent().siblings().children().addClass("default");
+            }else{
+                $(".one").addClass("select").parent().siblings().children().removeClass("select");
+
+                $(".one").removeClass("default").parent().siblings().children().addClass("default");
+            }
+        });
+    });
+</script>
+
+<script>
+    new  WOW().init();//加载激活wow.js
+    // 默认参数（可自定义）
+//   wow = new WOW({
+//        boxClass:     'wow',      // default　WOW.js需要执行动画的元素的 class
+//        animateClass: 'animated', // default animation.css 动画的 class
+//        offset:       0,          // default 距离可视区域多少开始执行动画
+//        mobile:       true,       // default 是否在移动设备上执行动画默认：true，可选：false
+//        live:         true        // default  异步加载的内容是否有效，默认：true，可选：false
+//    })
+//    wow.init();
+</script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+.onepage{
+    background-image: url("./img/9.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.twopage{
+
+    background-image: url("./img/10.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.threepage{
+    background-image: url("./img/4.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.fourpage{
+    background-image: url("./img/11.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.fivepage{
+    background-image: url("./img/6.jpg");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+*{
+    margin: 0px;
+}
+.side-nav{
+
+    width:5%;
+    position: fixed;
+    top: 45%;
+    right: 0px;
+    z-index: 1;
+}
+.side-nav ul{
+    width: 100%;
+
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.side-nav ul li{
+    width: 100%;
+
+    display: block;
+    line-height: 1.45em;
+    margin: 0;
+    padding: 8px 25px;
+}
+.side-nav ul li a{
+
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.default{
+    background-color: #eeeeee;
+
+}
+.select{
+    background-color: #79CDC0;
+}
+/*
+!*光*!
+.light{
+    position: relative;
+}
+.light:before{
+    content: '';
+    position: absolute;
+    top: 0; left: -0px;
+    width:100px; height: 100%;overflow: hidden;
+    background: -moz-linear-gradient(left, rgba(255,255,255,0)0, rgba(255,255,255,.2)50%, rgba(255,255,255,0)100%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255,255,255,0)), color-stop(50%, rgba(255,255,255,.2)), color-stop(100%, rgba(255,255,255,0)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0)0, rgba(255,255,255,.2)50%, rgba(255,255,255,0)100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,0)0, rgba(255,255,255,.2)50%, rgba(255,255,255,0)100%);
+    -webkit-transform: skewX(-25deg);
+    -moz-transform: skewX(-25deg);
+    opacity: 0;
+}
+.light:hover:before{
+    left: 35%; transition: left 1s ease 0s;
+    opacity: 1;
+}*/
